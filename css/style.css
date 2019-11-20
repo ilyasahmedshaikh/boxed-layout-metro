@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body
+{
+    font-family: 'Roboto', sans-serif !important;
+    overflow-x: hidden;
+    margin-bottom: 0 auto;
+    background: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+p, h1 ,h2 ,h3, h4, h5, h6 {
+    margin: 0 !important;
+}
+
+.all-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.metro
+{
+    background-color: white;
+}
+
+.metro .heading
+{
+    margin: 40px 85px;
+    text-align: center;
+}
+
+.metro .heading h1
+{
+    font-size: 50px;
+}
+
+.metro .seprator
+{
+    width: 27%;
+    height: 1px;
+    background-color: #c3c3c3;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    margin-top: 3%;
+}
+
+.metro p
+{
+    color: black;
+    font-size: 29px;
+    font-family: Montserrat;
+}
+.metro .img-sec .wrapper-main
+{
+    margin-top: 20px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.metro .img-sec .wrapper-main img
+{
+    width: 100%;
+    height: 340px;
+    object-fit: cover;
+}
+
+.metro .btn 
+{
+    margin-top: 5%;
+}
+
+.metro .btn a
+{
+    font-size: 20px;
+    color: white;
+    background-color: purple;
+    padding: 10px 25px 10px 20px;
+}
+
+.wrapper-main .flap {
+    background: #a93aa9d1;
+    /* width: 100%; */
+    height: 100%;
+    position: absolute;
+    transition: 0.5s;
+    top: -130%;
+    padding: 50px 20px;
+}
+
+.wrapper-main:hover .flap{
+  top: 0; 
+}
+
+.wrapper-main .flap p {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.wrapper-main .flap p:last-child {
+    padding: 30px 0 0 0;
+}
+
+.wrapper-main .flap p span {
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+/* grid  */
+.row { text-align: center; }
+
+.wrapper-main {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.one {
+    width: 100%;
+}
+
+.two {
+    width: 50%;
+}
+
+.three {
+    width: 33.3%;
+}
+
+.four {
+    width: 25%;
+}
+
+.five {
+    width: 20%;
+}
+
+@media only screen and (max-width: 600px) {
+    .one, .two, .three, .four, .five {
+        width: auto;
+    }
+}
